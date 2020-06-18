@@ -13,7 +13,7 @@ background-color: white;
 width: 100%;
 
 }
-@media(max-width:400px){
+@media(max-width:600px){
     .main_header{
         display: none;
     }
@@ -237,7 +237,7 @@ width: 50%;
     background-size: cover;
 
 }
-@media (max-width:500px){
+@media (max-width:600px){
     .main_plns{
         height: 100%;
     }
@@ -340,7 +340,7 @@ height: 10%;
     height: 800px;
     background-color: rgb(133, 213, 216);
 }
-@media (max-width:500px){
+@media (max-width:600px){
     .main_footer{
         display: flex;
         flex-direction: column-reverse;
