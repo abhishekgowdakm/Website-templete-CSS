@@ -1,0 +1,508 @@
+body{
+    margin:0;
+ 
+}
+
+
+.main_header{
+position: fixed;
+text-align: center;
+padding-top: 3%;
+height: 70px;
+background-color: white;
+width: 100%;
+
+}
+@media(max-width:400px){
+    .main_header{
+        display: none;
+    }
+    .sidebar{
+       width: 60px;
+       height: 50px; 
+       background-color: transparent;
+       padding-top: 20px;
+       padding-left: 10px;
+    }
+    .sidebar .sidebar_line{
+        width:50px;
+        height: 5px;
+        margin: 5px;
+        margin-top: 0;
+      
+        background-color: black;
+    }
+    .display_nav{
+        background-color: white;
+        width: 80%;
+        height: 100%;
+    position: fixed;
+    z-index: 2;
+display: none;
+    }
+   .main_nav_items{
+       display: block;
+       margin:20px;
+       margin-top: 50px;
+       padding-left: 25%;
+       text-decoration: none;
+       font-family: 'Roboto', sans-serif;
+       color: black;
+   }
+   .main_log{
+       display: block;
+       padding-left: 20%;
+       padding-top: 20px;
+   }
+   /* .backdrop{
+       background-color: rgba(0, 0,0, 0.3);
+       display: block;
+       position: fixed;
+       width: 500px;
+       height: 100%;
+       z-index: 1;
+       transform: translate(0) !important;
+   } */
+.display_nav .main_button{
+margin-left: 20%;
+width:50%;
+height: 50%;
+margin-top: 40px;
+}
+}
+
+.main_header .main_nav_items{
+    text-decoration: none;
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    padding:15px;
+    color: black;
+}
+.main_log{
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.main_image{
+  padding-top: 250px;
+  text-align: center;
+    height: 100vh;
+    background-image: url("./assets/main_image_3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+   
+    
+}
+@media (max-width:1350px){
+    .main_image{
+       background-size: cover;
+        padding-top: 150px;
+        height: 700px;
+    
+    }
+  
+}
+@media(max-width:400px) {
+    .main_image{
+        background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding-top: 0px;
+    } 
+  
+    .main_image .main_image_paragraph_1{
+            font-size: 15px;
+            padding-top: 50px;
+        }
+        .main_image .main_image_header{
+            font-size: 30px;
+        }
+        .main_image .main_image_paragraph_2{
+            font-size: 15px;
+        }
+      
+}
+ 
+
+.main_image_paragraph_1{
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+.main_image_header{
+    margin :20px;
+    font-size: 140px;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+.main_image_paragraph_2{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.main_button{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    min-width: 6%;
+    height: 5%;
+    width: 7rem;
+    margin-left: 0%;
+background-color: black;
+border:2px black solid;
+}
+.main_button:hover{
+    background-color: transparent;
+}
+.main_descripation_grid{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+@media (max-width:500px){
+    .main_descripation_grid{
+        display: flex;
+        flex-direction: column;
+       
+        height: 1000px;
+    }
+    .main_descripation_grid .main_descripation{
+        width: 100%;
+    }
+    .main_descripation_grid .main_descripation h1{
+      text-align: center;
+        font-size:0.9rem;
+        padding-left:0 ;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .main_descripation_grid .main_descripation p{
+      padding-left: 0;
+        font-size: 0.8rem;
+        text-align: center;
+padding-right: 0;
+    
+    }
+    .main_descripation_grid .main_descripation button{
+        margin-left:40% ;
+        margin-bottom: 10%;
+    }
+    .main_descripation_grid .main_descripation_image{
+        height: 100%;
+        width: 100%;
+        background-size: 400px 700px;
+    }
+}
+.main_descripation{
+    width: 50%;
+
+}
+.main_descripation h1{
+    padding-left: 50%;
+    font-size:4rem;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.main_descripation p{
+    padding-left: 50%;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+padding-right: 10%;
+}
+.main_descripation button{
+    margin-left: 50%;
+    height: 5%;
+    color:white;
+    background-color: black;
+    border: 2px solid black;
+    margin-top: 40px;
+}
+.main_descripation_image{
+background: url("./assets/main_descripation_image_2.jpg");
+background-size: 100% 800px;
+
+width: 50%;
+}
+.main_descripation button:hover{
+    background-color: transparent;
+    color: black;
+}
+.main_plns{
+    height: 800px;
+    background:url("./assets/main_plans_image.jpg");
+    background-size: cover;
+
+}
+@media (max-width:500px){
+    .main_plns{
+        height: 100%;
+    }
+    .main_plns.main_plns h1{
+        padding-top: 25px;
+        padding-left:20% ;
+        font-size: 1rem;
+    margin-top: 0;
+    }
+    .main_plns .main_plans_items{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main_plns .main_plans_item{
+        width:80%;
+        height: 400px;
+        border: 5px solid black ;
+        margin:30px;
+    }
+    .main_plns .main_plans_item button{
+       
+    margin-left:40%;
+    margin-top: 10%;
+    
+    }
+    .main_plns .main_plans_button{
+        margin-top: 20px;
+        margin-left: 30%;
+        background-color: rgb(255, 255, 255);
+        border: black 2px solid;
+        color: rgb(8, 8, 8);
+      
+    }
+    .main_plns .main_plans_button:hover{
+        background-color: rgb(101, 226, 216);
+        color: black;
+    }
+}
+.main_plns h1{
+    padding-top: 50px;
+    padding-left:20% ;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat', sans-serif;
+margin-top: 0;
+}
+.main_plans_items{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18%;
+}
+.main_plans_item{
+    width:25%;
+    height: 400px;
+    border: 3px solid black ;
+    margin:20px;
+}
+.main_plans_item p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+.main_plans_item button{
+    font-family: 'Roboto', sans-serif;
+margin-left:40%;
+margin-top: 15%;
+background-color: rgb(172, 248, 229);
+border: 2px solid rgb(166, 252, 230);
+width: 25%;
+height: 10%;
+}
+.main_plan_site{
+    text-decoration: none;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+   padding-top: 20%;
+   text-align: center;
+      display: block;
+}
+.main_plans_button{
+    margin-top: 50px;
+    margin-left: 49%;
+    background-color: rgb(22, 22, 22);
+    border: black 2px solid;
+    color: white;
+    height: 40px;
+    width: 150px;}
+.main_plans_button:hover{
+    background-color: transparent;
+    color: black;
+}
+.main_footer{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    background-color: rgb(133, 213, 216);
+}
+@media (max-width:500px){
+    .main_footer{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .main_footer .contact_form{
+        width:100%; 
+        margin-top: 50px;
+    
+    }
+    .main_footer label{
+        text-align: center;
+    }
+    .main_footer .contact_form_name{
+        margin-left: 6rem;
+    }
+    .main_footer .contact_form_email{
+        margin-left: 6rem;
+    }
+    .main_footer .contact_form_subject{
+        margin-left: 6rem;
+    }
+    .main_footer .contact_form_message{
+        margin-left: 6rem;
+    }
+    .main_footer .contact_form_button{
+        width: 100px;
+    }
+    .main_footer .contact_details{
+        width:100%;
+        text-align: center;
+    }
+    .main_footer .contact_details h1{
+        padding-left: 0;
+        padding-top: 0;
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .main_footer .contact_details_paragraph{
+        padding-left: 0%;
+        padding-top: 5%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+    }
+    .main_footer .contact_details a{
+        padding-left: 0%;
+        padding-top: 3%;
+        display: block;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+    }
+    .main_footer .contact_details_about{
+        font-size: 0.8rem;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 0%;
+        padding-top: 10%;
+    }
+}
+.contact_details{
+    width:50%;
+    
+}
+.contact_details h1{
+    padding-left: 50%;
+    padding-top: 10%;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact_details_paragraph{
+    padding-left: 50%;
+    padding-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.contact_details a{
+    padding-left: 50%;
+    padding-top: 3%;
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.contact_details_about{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50%;
+    padding-top: 10%;
+}
+.contact_form{
+    width:50%;
+    padding-top: 5.5%;
+}
+.contact_form label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    display: block;
+    margin:4px 0px ; 
+}
+.contact_form_name{
+width:45%;
+height: 3%;
+border: 2px solid black;
+margin:4px 0px ;
+background-color: rgb(73, 162, 165);
+font-size: 0.7rem;
+}
+.contact_form_name:focus{
+    outline: none;
+background-color: rgb(158, 236, 223);
+}
+.contact_form_email{
+    width:45%;
+height: 3%;
+border: 2px solid black;
+margin:4px 0px ; 
+background-color: rgb(73, 162, 165);
+font-size: 0.9rem;
+}
+.contact_form_email:focus{
+    outline: none;
+background-color: rgb(158, 236, 223);
+}
+.contact_form_subject{
+    width:45%;
+height: 3%;
+border: 2px solid black;
+margin:4px 0px ; 
+background-color: rgb(73, 162, 165);
+font-size: 0.9rem;
+}
+.contact_form_subject:focus{
+
+    outline: none;
+background-color: rgb(158, 236, 223);
+}
+.contact_form_message{
+    width:45%;
+height: 15%;
+border: 2px solid black;
+display: block;
+margin-top: 9px;
+background-color: rgb(73, 162, 165);
+color: black;
+font-size: 0.9rem;
+padding: 0;
+text-align: justify;
+}
+.contact_form_message:focus{
+outline: none;
+background-color: rgb(158, 236, 223);
+}
+.contact_form_button{
+    margin-top: 5%;
+    margin-left: 35%;
+    width:10%;
+    height: 3%;
+    background-color: black;
+    color: white;
+    border: 2px black solid;
+}
+.contact_form_button:hover{
+    background-color: transparent;
+    color: black;
+}
