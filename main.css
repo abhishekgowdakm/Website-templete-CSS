@@ -262,7 +262,7 @@ width: 50%;
     }
     .main_plns .main_plans_item button{
        
-    margin-left:40%;
+    margin-left:37%;
     margin-top: 10%;
     
     }
@@ -355,19 +355,20 @@ height: 10%;
         text-align: center;
     }
     .main_footer .contact_form_name{
-        margin-left: 6rem;
+        margin-left: 26.5%;
     }
     .main_footer .contact_form_email{
-        margin-left: 6rem;
+        margin-left: 26.5%;
     }
     .main_footer .contact_form_subject{
-        margin-left: 6rem;
+        margin-left: 26.5%;
     }
     .main_footer .contact_form_message{
-        margin-left: 6rem;
+        margin-left: 26.5%;
     }
     .main_footer .contact_form_button{
         width: 100px;
+        margin-left: 37%;
     }
     .main_footer .contact_details{
         width:100%;
